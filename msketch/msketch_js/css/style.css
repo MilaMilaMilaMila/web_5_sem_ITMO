@@ -1,0 +1,126 @@
+body{
+  background-color: #cccccc;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.headerContent {
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 10vh;
+}
+
+.headerNav > ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding-left: 0;
+  align-items: stretch;
+}
+
+.headerNav > ul > li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.headerNav > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+
+main {
+  flex-grow: 1;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*min-height: 80vh;*/
+}
+
+.mainContentData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  flex-grow: 1;
+  margin: 5px;
+
+}
+
+.sketches {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sketches > li {
+  margin: 5px;
+  border: solid;
+}
+
+.centerMainNav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.centerMainNav > ul > li {
+  padding: 20px;
+}
+
+.baseFunctions {
+  background-color: white;
+  flex-grow: 1;
+  margin: 5px;
+}
+
+.recentData {
+  background-color: white;
+  flex-grow: 1;
+  margin: 5px;
+}
+
+
+
+
+
+.footerContent {
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 5vh;
+}
+
+.footerContent > ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding-left: 0;
+  align-items: stretch;
+}
+
+.footerContent > ul > li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
